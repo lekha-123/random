@@ -1,7 +1,7 @@
 var PLAY =1;
 var END =0 ;
 var gamestate=1; 
-var monkey , monkey_running
+var monkey , monkey_running,monkey1;
 var banana ,bananaImage, obstacle, obstacleImage
 var FoodGroup, obstacleGroup
 var score=0;
@@ -34,7 +34,9 @@ function setup() {
 bananaGroup = createGroup();
   obstacleGroup = createGroup();
 
-
+  monkey1 = createSprite(80,200,20,20);
+  monkey1.addAnimation("running",monkey_running)
+  monkey1.scale = 0.12;
   
 }
 
