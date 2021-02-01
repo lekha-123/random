@@ -4,7 +4,7 @@ var gamestate=1;
 var monkey , monkey_running,monkey1;
 var banana ,bananaImage, obstacle, obstacleImage
 var FoodGroup, obstacleGroup
-var score=0;
+var score=0;jsafdahfod
 
 function preload(){
   
